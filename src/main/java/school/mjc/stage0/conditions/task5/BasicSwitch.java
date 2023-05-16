@@ -4,6 +4,7 @@ public class BasicSwitch {
     public static void main(String[] args) {
         int a = 20;
         switch (a) {
+            case 20:
             default:
                 System.out.println("default");
                 break;
@@ -13,9 +14,8 @@ public class BasicSwitch {
             case 10:
                 System.out.println("ten");
                 break;
-            case 20:
-                System.out.println("twenty");
-                break;
+//                System.out.println("twenty");
+//                break;
         }
     }
 }
